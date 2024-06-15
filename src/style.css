@@ -1,0 +1,9 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBLI3OvZHTfUjE12HMBawI86U8-4kuyooAIQ&s");
+    background-size:cover;
+    background-repeat: no-repeat;}
+    
+h1{color:red}
+p{color: burlywood;}
+h2,h3{color:blueviolet}
+li{color: green;}
