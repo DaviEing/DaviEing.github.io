@@ -8,6 +8,12 @@ a {
   max-width: 1100px;
   margin: 0 auto;
 }
+.negrito {
+  font-weight: bold;
+}
+strong {
+  font-weight: bold;
+}
 .menu-navegacao {
   display: flex;
   text-align: center;
@@ -75,28 +81,8 @@ a {
   justify-content: space-between;
   justify-content: center;
 }
-.titulo-me {
-  font-size: 48px;
-  color: white;
-  padding-top: 75px;
-  padding-bottom: 100px;
-}
-.conteiner2 {
-  background-color: black;
-}
-.experiencias {
-  display: flex;
-  text-align: center;
 
-  align-items: center;
-}
-.straw {
-  max-width: 50px;
-}
-.ex-straw {
-  padding-left: 25px;
-  color: white;
-}
+
 .botao-redes-sociais {
   margin: 0px 15px 0px 15px;
 }
@@ -125,11 +111,29 @@ a {
   gap: 25px;
 }
 .habilidade:hover {
-background-color: black;
-color: white;
+  background-color: black;
+  color: white;
 }
 .habilidade {
   background-color: white;
   color: black;
   border: solid 2px black;
+}
+.titulo-me {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  gap: 15px;
+}
+.google {
+  display: flex;
+  align-items: center;
+}
+.Youtube{
+  display: flex;
+  align-items: center;
+}
+.apple{
+  display: flex;
+  align-items: center;
 }
