@@ -5,8 +5,11 @@ a {
   font-style: normal;
 }
 .container {
-  max-width: 1100px;
+  max-width: 1500px;
   margin: 0 auto;
+}
+span {
+  font-weight: bold;
 }
 .negrito {
   font-weight: bold;
@@ -75,14 +78,6 @@ strong {
   max-width: 100%;
   padding-bottom: 75px;
 }
-.ME {
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-  justify-content: center;
-}
-
-
 .botao-redes-sociais {
   margin: 0px 15px 0px 15px;
 }
@@ -109,6 +104,7 @@ strong {
 .habilidades {
   display: flex;
   gap: 25px;
+  margin-bottom: 75px;
 }
 .habilidade:hover {
   background-color: black;
@@ -124,16 +120,124 @@ strong {
   justify-content: center;
   font-size: 48px;
   gap: 15px;
+  margin-bottom: 150px;
+  margin-top: 75px;
 }
-.google {
+.titulo-google {
   display: flex;
   align-items: center;
 }
-.Youtube{
+.titulo-Youtube {
   display: flex;
   align-items: center;
 }
-.apple{
+.titulo-apple {
   display: flex;
   align-items: center;
+}
+.Apple {
+  border: solid 1px gray;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+.Apple:hover {
+  background-color: gray;
+}
+.Google {
+  border: solid 1px gray;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+.Google:hover {
+  background-color: gray;
+}
+.Youtube {
+  border: solid 1px gray;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+.Youtube:hover {
+  background-color: gray;
+}
+.me {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.conteiner2 {
+  background-color: black;
+  color: white;
+  margin-bottom: 30px;
+}
+.mais-sobre-mim {
+  display: flex;
+}
+.tsm {
+  font-size: 48px;
+  padding-bottom: 20px;
+  display: flex;
+}
+.sm {
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+.img-sm {
+  margin-right: 50px;
+}
+.p1flex {
+  display: flex;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.p1 {
+  padding-left: 40px;
+}
+.numero-p1 {
+  font-size: 48px;
+  padding-top: 60px;
+}
+.tp1 {
+  font-size: 32px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.txp1 {
+  padding-bottom: 20px;
+}
+.p2flex {
+  display: flex;
+  max-width: 1500px;
+  margin: 0 auto;
+  flex-direction: row-reverse;
+}
+.p3flex {
+  display: flex;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.creditos {
+  display: flex;
+  max-width: 1500px;
+  margin: 0 auto;
+  align-items: center;
+}
+.creditos2 {
+  display: flex;
+  max-width: 1500px;
+  margin: 0 auto;
+  align-items: center;
+  margin-left: 800px;
+}
+.titulo-p {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  gap: 15px;
+  margin-bottom: 150px;
+  padding-top: 75px;
+  margin-top: 25px;
 }
