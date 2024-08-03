@@ -4,9 +4,11 @@ a {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.container {
-  max-width: 1500px;
+.conteiner-principal {
+  max-width: 100%max-content;
   margin: 0 auto;
+  padding-left: 7.1875rem;
+  padding-right: 7.1875rem;
 }
 span {
   font-weight: bold;
@@ -22,24 +24,24 @@ strong {
   text-align: center;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 30px;
+  padding-bottom: 1.855rem;
 }
 .item-menu-navegacao {
-  font-size: 20px;
-  padding-left: 32px;
-  padding-top: 30px;
+  font-size: 1.25rem;
+  padding-left: 2rem;
+  padding-top: 1.875rem;
 }
 .botao {
   background-color: black;
   color: white;
-  font-size: 20px;
-  border-radius: 4px;
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
 }
 .botao:hover {
   background-color: white;
   color: black;
-  font-size: 20px;
-  border-radius: 4px;
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
 }
 
 .pessoa {
@@ -49,17 +51,17 @@ strong {
   display: flex;
   text-align: center;
   justify-content: space-between;
-  padding-bottom: 70px;
+  padding-bottom: 4.375rem;
 }
 .texto-sobre-mim {
   text-align: left;
-  font-size: 30px;
-  padding-bottom: 40px;
+  font-size: 1.875rem;
+  padding-bottom: 2.5rem;
 }
 .paragrafo-sobre-mim {
   text-align: left;
-  font-size: 15px;
-  padding-bottom: 100px;
+  font-size: 0.9375rem;
+  padding-bottom: 6.25rem;
 }
 .rds {
   max-width: 50%;
@@ -71,15 +73,15 @@ strong {
   justify-content: center;
 }
 .titulo-skill {
-  font-size: 48px;
-  padding-bottom: 75px;
+  font-size: 3rem;
+  padding-bottom: 4.6875rem;
 }
 .skills {
   max-width: 100%;
-  padding-bottom: 75px;
+  padding-bottom: 4.6875rem ;
 }
 .botao-redes-sociais {
-  margin: 0px 15px 0px 15px;
+  margin: 0rem 0.9375rem 0rem 0.9375rem;
 }
 .botao-redes-sociais:hover {
   background-color: black;
@@ -87,7 +89,7 @@ strong {
 }
 .redes-sociais {
   display: flex;
-  gap: 25px;
+  gap: 1.5625rem;
 }
 
 .redes-social:hover {
@@ -139,7 +141,7 @@ strong {
   border: solid 1px gray;
   border-radius: 10px;
   margin-bottom: 40px;
-  padding: 10px;
+  padding: 15px;
 }
 .Apple:hover {
   background-color: gray;
@@ -163,15 +165,16 @@ strong {
   background-color: gray;
 }
 .me {
-  max-width: 1500px;
-  margin: 0 auto;
   padding-bottom: 30px;
   padding-top: 30px;
 }
 .conteiner2 {
+  max-width: 100vw;
+  margin: 0 auto;
   background-color: black;
   color: white;
-  margin-bottom: 30px;
+  padding-left: 115px;
+  padding-right: 115px;
 }
 .mais-sobre-mim {
   display: flex;
@@ -190,8 +193,6 @@ strong {
 }
 .p1flex {
   display: flex;
-  max-width: 1500px;
-  margin: 0 auto;
 }
 .p1 {
   padding-left: 40px;
@@ -210,25 +211,17 @@ strong {
 }
 .p2flex {
   display: flex;
-  max-width: 1500px;
-  margin: 0 auto;
   flex-direction: row-reverse;
 }
 .p3flex {
   display: flex;
-  max-width: 1500px;
-  margin: 0 auto;
 }
 .creditos {
   display: flex;
-  max-width: 1500px;
-  margin: 0 auto;
   align-items: center;
 }
 .creditos2 {
   display: flex;
-  max-width: 1500px;
-  margin: 0 auto;
   align-items: center;
   margin-left: 800px;
 }
@@ -240,4 +233,15 @@ strong {
   margin-bottom: 150px;
   padding-top: 75px;
   margin-top: 25px;
+}
+@media (max-width: 500px) {
+  .conteiner-principal{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .habilidades {
+    display: flex;
+  }
 }
