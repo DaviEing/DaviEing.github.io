@@ -4,21 +4,38 @@ a {
   font-optical-sizing: auto;
   font-style: normal;
 }
+
 .conteiner-principal {
-  max-width: 100%max-content;
+  max-width: 1280px;
   margin: 0 auto;
-  padding-left: 7.1875rem;
-  padding-right: 7.1875rem;
+  padding-left: 0 4%;
 }
+
 span {
   font-weight: bold;
 }
+
 .negrito {
   font-weight: bold;
 }
+
 strong {
   font-weight: bold;
 }
+
+.logo-nome{
+  display: flex;
+}
+.logo-nome{
+  width: 23px;
+  height: 34px ;
+}
+
+.nome {
+  display: flex;
+  align-items: center;
+}
+
 .menu-navegacao {
   display: flex;
   text-align: center;
@@ -26,17 +43,20 @@ strong {
   align-items: center;
   padding-bottom: 1.855rem;
 }
+
 .item-menu-navegacao {
   font-size: 1.25rem;
   padding-left: 2rem;
   padding-top: 1.875rem;
 }
+
 .botao {
   background-color: black;
   color: white;
   font-size: 1.25rem;
   border-radius: 0.25rem;
 }
+
 .botao:hover {
   background-color: white;
   color: black;
@@ -47,46 +67,56 @@ strong {
 .pessoa {
   max-width: 50%;
 }
+
 .sobre-mim {
   display: flex;
   text-align: center;
   justify-content: space-between;
   padding-bottom: 4.375rem;
 }
+
 .texto-sobre-mim {
   text-align: left;
   font-size: 1.875rem;
   padding-bottom: 2.5rem;
 }
+
 .paragrafo-sobre-mim {
   text-align: left;
   font-size: 0.9375rem;
   padding-bottom: 6.25rem;
 }
+
 .rds {
   max-width: 50%;
 }
+
 .skill {
   display: flex;
   text-align: center;
   justify-content: space-between;
   justify-content: center;
 }
+
 .titulo-skill {
   font-size: 3rem;
   padding-bottom: 4.6875rem;
 }
+
 .skills {
   max-width: 100%;
-  padding-bottom: 4.6875rem ;
+  padding-bottom: 4.6875rem;
 }
+
 .botao-redes-sociais {
   margin: 0rem 0.9375rem 0rem 0.9375rem;
 }
+
 .botao-redes-sociais:hover {
   background-color: black;
   color: white;
 }
+
 .redes-sociais {
   display: flex;
   gap: 1.5625rem;
@@ -96,6 +126,7 @@ strong {
   color: white;
   background-color: black;
 }
+
 .redes-social {
   background-color: white;
   color: black;
@@ -103,20 +134,24 @@ strong {
   border: solid 2px black;
   border-radius: 5px;
 }
+
 .habilidades {
   display: flex;
   gap: 25px;
   margin-bottom: 75px;
 }
+
 .habilidade:hover {
   background-color: black;
   color: white;
 }
+
 .habilidade {
   background-color: white;
   color: black;
   border: solid 2px black;
 }
+
 .titulo-me {
   display: flex;
   justify-content: center;
@@ -124,107 +159,142 @@ strong {
   gap: 15px;
   margin-bottom: 150px;
   margin-top: 75px;
+  color: white;
 }
+
 .titulo-google {
   display: flex;
   align-items: center;
+  color: #FFFFFF;
+  ;
 }
+
 .titulo-Youtube {
   display: flex;
   align-items: center;
+  color: #FFFFFF;
 }
+
 .titulo-apple {
   display: flex;
   align-items: center;
+  color: #FFFFFF;
 }
+
 .Apple {
   border: solid 1px gray;
   border-radius: 10px;
   margin-bottom: 40px;
   padding: 15px;
+  color:#D4D4D8;
 }
+
 .Apple:hover {
   background-color: gray;
 }
+
 .Google {
   border: solid 1px gray;
   border-radius: 10px;
   margin-bottom: 40px;
   padding: 10px;
+  color:#D4D4D8;
+  ;
 }
+
 .Google:hover {
   background-color: gray;
 }
+
 .Youtube {
   border: solid 1px gray;
   border-radius: 10px;
   margin-bottom: 40px;
   padding: 10px;
+  color:#D4D4D8;
 }
+
 .Youtube:hover {
   background-color: gray;
 }
+
 .me {
   padding-bottom: 30px;
   padding-top: 30px;
-}
-.conteiner2 {
-  max-width: 100vw;
-  margin: 0 auto;
   background-color: black;
-  color: white;
-  padding-left: 115px;
-  padding-right: 115px;
 }
+
 .mais-sobre-mim {
   display: flex;
+  padding-top: 100px;
 }
-.tsm {
+
+.texto-mais-sobre-mim {
   font-size: 48px;
   padding-bottom: 20px;
   display: flex;
 }
-.sm {
+
+.sobre-min {
   font-size: 16px;
   padding-bottom: 40px;
 }
+
 .img-sm {
   margin-right: 50px;
 }
+
 .p1flex {
   display: flex;
 }
+
 .p1 {
   padding-left: 40px;
+  color: #FFFFFF;
 }
+
 .numero-p1 {
   font-size: 48px;
   padding-top: 60px;
 }
+
 .tp1 {
   font-size: 32px;
   padding-top: 20px;
   padding-bottom: 30px;
 }
+
 .txp1 {
   padding-bottom: 20px;
+  color: #D4D4D8;
 }
+
 .p2flex {
   display: flex;
   flex-direction: row-reverse;
 }
+
 .p3flex {
   display: flex;
 }
+
+.projetos{
+  background-color: black;
+}
+
 .creditos {
   display: flex;
   align-items: center;
+  background-color: black;
+  color: #FFFFFF;
 }
+
 .creditos2 {
   display: flex;
   align-items: center;
   margin-left: 800px;
 }
+
 .titulo-p {
   display: flex;
   justify-content: center;
@@ -235,31 +305,55 @@ strong {
   margin-top: 25px;
 }
 
+.meus-projetos{
+  background-color: black;
+
+}
+
 @media (max-width: 1000px) {
   .sobre-mim {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
   }
-  .pessoa{
+
+  .pessoa {
     padding-bottom: 30px;
   }
-  .centralizar{
+
+  .centralizar {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
-  .habilidades{
+
+  .habilidades {
     flex-direction: column;
     align-items: center;
   }
-  .mais-sobre-mim{
+
+  .mais-sobre-mim {
     flex-direction: column;
     align-items: center;
   }
-  .p1000{
+
+  .habilidades {
+    flex-direction: column;
+  }
+
+  .me {
+    flex-direction: column;
+  }
+
+  .p1flex{
+    flex-direction: column;
+  }
+
+  .p2flex{
+    flex-direction: column;
+  }
     
+  .p3flex{
+    flex-direction: column;
   }
-
-} 
-
+}

@@ -14,9 +14,12 @@
     <title>Portifolio</title>
   </head>
   <body>
-    <div class="conteiner-principal">
+    <header class="conteiner-principal">
       <nav class="menu-navegacao">
-        <img src="./src/imagens/logo.png" alt="" />
+        <div class="logo-nome">
+        <img class="logo" src="./src/imagens/logo.png" alt="" />
+        <p class="nome">Davi</p>
+        </div>
         <ul class="lista-menu menu-navegacao">
           <li class="item-menu-navegacao">Sobre mim</li>
           <li class="item-menu-navegacao">Habilidedes</li>
@@ -25,7 +28,8 @@
         </ul>
         <button class="botao">Currículo</button>
       </nav>
-
+    </header>
+    <main>
       <section class="sobre-mim">
         <div class="centralizar">
           <h1 class="texto-sobre-mim">
@@ -230,294 +234,296 @@
           </div>
         </ul>
       </section>
-    </div>
-    <div class="conteiner2">
       <section class="me">
-        <h2 class="titulo-me">
-          Minhas
-          <span> Experiencias </span>
-        </h2>
-        <div class="Google">
-          <div class="titulo-google">
-            <svg
-              width="32"
-              height="32"
-              viewBox="0 0 32 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M30.0014 16.3109C30.0014 15.1598 29.9061 14.3198 29.6998 13.4487H16.2871V18.6442H24.1601C24.0014 19.9354 23.1442 21.8798 21.2394 23.1864L21.2127 23.3604L25.4536 26.58L25.7474 26.6087C28.4458 24.1665 30.0014 20.5731 30.0014 16.3109Z"
-                fill="#4285F4"
-              />
-              <path
-                d="M16.2863 30C20.1434 30 23.3814 28.7555 25.7466 26.6089L21.2386 23.1865C20.0323 24.011 18.4132 24.5866 16.2863 24.5866C12.5086 24.5866 9.30225 22.1444 8.15929 18.7688L7.99176 18.7827L3.58208 22.1272L3.52441 22.2843C5.87359 26.8577 10.699 30 16.2863 30Z"
-                fill="#34A853"
-              />
-              <path
-                d="M8.16013 18.7688C7.85855 17.8977 7.68401 16.9643 7.68401 15.9999C7.68401 15.0354 7.85855 14.1021 8.14426 13.231L8.13627 13.0455L3.67132 9.64734L3.52524 9.71544C2.55703 11.6132 2.00146 13.7444 2.00146 15.9999C2.00146 18.2555 2.55703 20.3865 3.52524 22.2843L8.16013 18.7688Z"
-                fill="#FBBC05"
-              />
-              <path
-                d="M16.2864 7.4133C18.9689 7.4133 20.7784 8.54885 21.8102 9.4978L25.8419 5.64C23.3658 3.38445 20.1435 2 16.2864 2C10.699 2 5.8736 5.1422 3.52441 9.71549L8.14345 13.2311C9.30229 9.85555 12.5086 7.4133 16.2864 7.4133Z"
-                fill="#EB4335"
-              />
-            </svg>
-            <h3>Engenheiro de software no Youtube</h3>
+        <div class="conteiner-principal">
+          <h2 class="titulo-me">
+            Minhas
+            <span> Experiencias </span>
+          </h2>
+          <div class="Google">
+            <div class="titulo-google">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M30.0014 16.3109C30.0014 15.1598 29.9061 14.3198 29.6998 13.4487H16.2871V18.6442H24.1601C24.0014 19.9354 23.1442 21.8798 21.2394 23.1864L21.2127 23.3604L25.4536 26.58L25.7474 26.6087C28.4458 24.1665 30.0014 20.5731 30.0014 16.3109Z"
+                  fill="#4285F4"
+                />
+                <path
+                  d="M16.2863 30C20.1434 30 23.3814 28.7555 25.7466 26.6089L21.2386 23.1865C20.0323 24.011 18.4132 24.5866 16.2863 24.5866C12.5086 24.5866 9.30225 22.1444 8.15929 18.7688L7.99176 18.7827L3.58208 22.1272L3.52441 22.2843C5.87359 26.8577 10.699 30 16.2863 30Z"
+                  fill="#34A853"
+                />
+                <path
+                  d="M8.16013 18.7688C7.85855 17.8977 7.68401 16.9643 7.68401 15.9999C7.68401 15.0354 7.85855 14.1021 8.14426 13.231L8.13627 13.0455L3.67132 9.64734L3.52524 9.71544C2.55703 11.6132 2.00146 13.7444 2.00146 15.9999C2.00146 18.2555 2.55703 20.3865 3.52524 22.2843L8.16013 18.7688Z"
+                  fill="#FBBC05"
+                />
+                <path
+                  d="M16.2864 7.4133C18.9689 7.4133 20.7784 8.54885 21.8102 9.4978L25.8419 5.64C23.3658 3.38445 20.1435 2 16.2864 2C10.699 2 5.8736 5.1422 3.52441 9.71549L8.14345 13.2311C9.30229 9.85555 12.5086 7.4133 16.2864 7.4133Z"
+                  fill="#EB4335"
+                />
+              </svg>
+              <h3>Engenheiro de software no Youtube</h3>
+            </div>
+            <p class="sobre-experiencias">
+              Como engenheiro de software sênior no Google, desempenhei um papel
+              fundamental no desenvolvimento de soluções inovadoras para os
+              principais algoritmos de pesquisa do Google. Colaborando com uma
+              equipe dinâmica de engenheiros, contribuí para o aprimoramento da
+              precisão e eficiência da pesquisa, otimizando as experiências do
+              usuário para milhões de usuários em todo o mundo.
+            </p>
           </div>
-          <p class="sobre-experiencias">
-            Como engenheiro de software sênior no Google, desempenhei um papel
-            fundamental no desenvolvimento de soluções inovadoras para os
-            principais algoritmos de pesquisa do Google. Colaborando com uma
-            equipe dinâmica de engenheiros, contribuí para o aprimoramento da
-            precisão e eficiência da pesquisa, otimizando as experiências do
-            usuário para milhões de usuários em todo o mundo.
-          </p>
-        </div>
 
-        <div class="Youtube">
-          <div class="titulo-Youtube">
-            <svg
-              width="32"
-              height="32"
-              viewBox="0 0 32 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M2.24451 9.94111C2.37304 7.96233 3.96395 6.41157 5.94447 6.31345C8.81239 6.17136 12.9115 6 16 6C19.0885 6 23.1876 6.17136 26.0555 6.31345C28.0361 6.41157 29.627 7.96233 29.7555 9.94111C29.8786 11.8369 30 14.1697 30 16C30 17.8303 29.8786 20.1631 29.7555 22.0589C29.627 24.0377 28.0361 25.5884 26.0555 25.6866C23.1876 25.8286 19.0885 26 16 26C12.9115 26 8.81239 25.8286 5.94447 25.6866C3.96395 25.5884 2.37304 24.0377 2.24451 22.0589C2.12136 20.1631 2 17.8303 2 16C2 14.1697 2.12136 11.8369 2.24451 9.94111Z"
-                fill="#FC0D1B"
-              />
-              <path d="M13 12V20L21 16L13 12Z" fill="white" />
-            </svg>
-            <h3>Engenheiro de software no Youtube</h3>
+          <div class="Youtube">
+            <div class="titulo-Youtube">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.24451 9.94111C2.37304 7.96233 3.96395 6.41157 5.94447 6.31345C8.81239 6.17136 12.9115 6 16 6C19.0885 6 23.1876 6.17136 26.0555 6.31345C28.0361 6.41157 29.627 7.96233 29.7555 9.94111C29.8786 11.8369 30 14.1697 30 16C30 17.8303 29.8786 20.1631 29.7555 22.0589C29.627 24.0377 28.0361 25.5884 26.0555 25.6866C23.1876 25.8286 19.0885 26 16 26C12.9115 26 8.81239 25.8286 5.94447 25.6866C3.96395 25.5884 2.37304 24.0377 2.24451 22.0589C2.12136 20.1631 2 17.8303 2 16C2 14.1697 2.12136 11.8369 2.24451 9.94111Z"
+                  fill="#FC0D1B"
+                />
+                <path d="M13 12V20L21 16L13 12Z" fill="white" />
+              </svg>
+              <h3>Engenheiro de software no Youtube</h3>
+            </div>
+            <p class="sobre-experiencias">
+              No Youtube, atuei como Engenheiro de Software, com foco no design
+              e implementação de sistemas backend para a plataforma dinâmica da
+              gigante das mídias sociais. Trabalhando em projetos que envolviam
+              processamento de dados em grande escala e recursos de envolvimento
+              do usuário, aproveitei minha experiência para garantir
+              funcionalidade e escalabilidade perfeitas.
+            </p>
           </div>
-          <p class="sobre-experiencias">
-            No Youtube, atuei como Engenheiro de Software, com foco no design e
-            implementação de sistemas backend para a plataforma dinâmica da
-            gigante das mídias sociais. Trabalhando em projetos que envolviam
-            processamento de dados em grande escala e recursos de envolvimento
-            do usuário, aproveitei minha experiência para garantir
-            funcionalidade e escalabilidade perfeitas.
-          </p>
-        </div>
 
-        <div class="Apple">
-          <div class="titulo-apple">
-            <svg
-              width="32"
-              height="32"
-              viewBox="0 0 32 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M30 16C30 23.728 23.735 30 16 30C8.265 30 2 23.728 2 16C2 8.265 8.265 2 16 2C23.735 2 30 8.265 30 16Z"
-                fill="#283544"
-              />
-              <path
-                d="M22.5621 12.4574C22.4857 12.502 20.6671 13.4425 20.6671 15.5279C20.7528 17.9061 22.9621 18.7401 23 18.7401C22.9621 18.7847 22.6665 19.8763 21.7907 21.0205C21.0956 22.0062 20.3242 23 19.1528 23C18.0385 23 17.6385 22.3431 16.3528 22.3431C14.972 22.3431 14.5813 23 13.5242 23C12.3528 23 11.5242 21.953 10.7913 20.9766C9.8391 19.6986 9.02978 17.6931 9.00121 15.7675C8.98195 14.7471 9.19189 13.744 9.72481 12.8921C10.477 11.7026 11.8198 10.8952 13.2863 10.8686C14.4099 10.8333 15.4099 11.5875 16.0956 11.5875C16.7528 11.5875 17.9814 10.8686 19.3714 10.8686C19.9714 10.8692 21.5714 11.0376 22.5621 12.4574ZM16.0006 10.6649C15.8006 9.73303 16.3528 8.80119 16.8671 8.20677C17.5242 7.48792 18.5621 7 19.4571 7C19.5143 7.93185 19.1522 8.84575 18.505 9.51136C17.9242 10.2302 16.9242 10.7714 16.0006 10.6649Z"
-                fill="white"
-              />
-            </svg>
-            <h3>Engenheiro de software júnior na Apple</h3>
+          <div class="Apple">
+            <div class="titulo-apple">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M30 16C30 23.728 23.735 30 16 30C8.265 30 2 23.728 2 16C2 8.265 8.265 2 16 2C23.735 2 30 8.265 30 16Z"
+                  fill="#283544"
+                />
+                <path
+                  d="M22.5621 12.4574C22.4857 12.502 20.6671 13.4425 20.6671 15.5279C20.7528 17.9061 22.9621 18.7401 23 18.7401C22.9621 18.7847 22.6665 19.8763 21.7907 21.0205C21.0956 22.0062 20.3242 23 19.1528 23C18.0385 23 17.6385 22.3431 16.3528 22.3431C14.972 22.3431 14.5813 23 13.5242 23C12.3528 23 11.5242 21.953 10.7913 20.9766C9.8391 19.6986 9.02978 17.6931 9.00121 15.7675C8.98195 14.7471 9.19189 13.744 9.72481 12.8921C10.477 11.7026 11.8198 10.8952 13.2863 10.8686C14.4099 10.8333 15.4099 11.5875 16.0956 11.5875C16.7528 11.5875 17.9814 10.8686 19.3714 10.8686C19.9714 10.8692 21.5714 11.0376 22.5621 12.4574ZM16.0006 10.6649C15.8006 9.73303 16.3528 8.80119 16.8671 8.20677C17.5242 7.48792 18.5621 7 19.4571 7C19.5143 7.93185 19.1522 8.84575 18.505 9.51136C17.9242 10.2302 16.9242 10.7714 16.0006 10.6649Z"
+                  fill="white"
+                />
+              </svg>
+              <h3>Engenheiro de software júnior na Apple</h3>
+            </div>
+            <p class="sobre-experiencias">
+              Durante minha gestão na Apple, ocupei o cargo de Arquiteto de
+              Software, onde desempenhei um papel fundamental na definição da
+              arquitetura de projetos de software de missão crítica. Responsável
+              por projetar sistemas escaláveis ​​e eficientes, forneci liderança
+              técnica para uma equipe multifuncional.
+            </p>
           </div>
-          <p class="sobre-experiencias">
-            Durante minha gestão na Apple, ocupei o cargo de Arquiteto de
-            Software, onde desempenhei um papel fundamental na definição da
-            arquitetura de projetos de software de missão crítica. Responsável
-            por projetar sistemas escaláveis ​​e eficientes, forneci liderança
-            técnica para uma equipe multifuncional.
-          </p>
         </div>
       </section>
-    </div>
-    <div class="conteiner-principal">
-      <div class="mais-sobre-mim">
-        <img class="img-sm" src="./src/imagens/pessoa 2.png" alt="" />
-        <div>
-          <div class="tsm">
-            <h2>Sobre <span>Mim</span></h2>
+      <div class="conteiner-principal">
+        <section class="mais-sobre-mim">
+          <img class="img-sm" src="./src/imagens/pessoa 2.png" alt="" />
+          <div>
+            <div class="texto-mais-sobre-mim">
+              <h2>Sobre <span>Mim</span></h2>
+            </div>
+            <p class="sobre-min">
+              Sou um designer autoproclamado apaixonado, especializado em
+              desenvolvimento full stack (React.js e Node.js). Estou muito
+              entusiasmado em dar vida aos aspectos técnicos e visuais dos
+              produtos digitais. A experiência do usuário, o design perfeito em
+              pixels e a escrita de código claro, legível e de alto desempenho
+              são importantes para mim.
+            </p>
+            <p class="sobre-min">
+              Comecei minha jornada como desenvolvedor web em 2015 e, desde
+              então, continuo crescendo e evoluindo como desenvolvedor,
+              enfrentando novos desafios e aprendendo as tecnologias mais
+              recentes ao longo do caminho. Agora, com trinta e poucos anos, 7
+              anos depois de iniciar minha jornada de desenvolvimento web, estou
+              construindo aplicativos web de ponta usando tecnologias modernas
+              como Next.js, TypeScript, Nestjs, Tailwindcss, Supabase e muito
+              mais.
+            </p>
+            <p class="sobre-min">
+              Quando não estou totalmente no modo de desenvolvedor, você pode me
+              encontrar circulando no Twitter ou em um hacker independente,
+              testemunhando a jornada das primeiras startups ou aproveitando
+              algum tempo livre. Você pode me seguir no Twitter, onde
+              compartilho informações relacionadas à tecnologia e construo em
+              público, ou pode me seguir no GitHub.
+            </p>
           </div>
-          <p class="sm">
-            Sou um designer autoproclamado apaixonado, especializado em
-            desenvolvimento full stack (React.js e Node.js). Estou muito
-            entusiasmado em dar vida aos aspectos técnicos e visuais dos
-            produtos digitais. A experiência do usuário, o design perfeito em
-            pixels e a escrita de código claro, legível e de alto desempenho são
-            importantes para mim.
-          </p>
-          <p class="sm">
-            Comecei minha jornada como desenvolvedor web em 2015 e, desde então,
-            continuo crescendo e evoluindo como desenvolvedor, enfrentando novos
-            desafios e aprendendo as tecnologias mais recentes ao longo do
-            caminho. Agora, com trinta e poucos anos, 7 anos depois de iniciar
-            minha jornada de desenvolvimento web, estou construindo aplicativos
-            web de ponta usando tecnologias modernas como Next.js, TypeScript,
-            Nestjs, Tailwindcss, Supabase e muito mais.
-          </p>
-          <p class="sm">
-            Quando não estou totalmente no modo de desenvolvedor, você pode me
-            encontrar circulando no Twitter ou em um hacker independente,
-            testemunhando a jornada das primeiras startups ou aproveitando algum
-            tempo livre. Você pode me seguir no Twitter, onde compartilho
-            informações relacionadas à tecnologia e construo em público, ou pode
-            me seguir no GitHub.
-          </p>
-        </div>
+        </section>
       </div>
-    </div>
-    <div class="conteiner2">
-      <div class="p1000">
-        <h2 class="titulo-p">Meus <span>projetos</span></h2>
-        <div class="p1flex">
-          <img src="./src/imagens/projetos1.png" alt="" />
-          <div class="p1">
-            <h2 class="numero-p1">01</h2>
-            <h2 class="tp1">Aplicativo Crypto Screener</h2>
-            <p class="txp1">
-              Sou Evren Shah Lorem Ipsum é simplesmente um texto fictício da
-              indústria de impressão e composição tipográfica. Lorem Ipsum tem
-              sido o texto fictício padrão da indústria desde 1500, quando um
-              impressor desconhecido pegou uma prova de tipos e embaralhou-a em
-              um livro de amostra.
-            </p>
-            <div class="img-more">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.8333 9.16666L17.6666 2.33333"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M18.3333 5.66667V1.66667H14.3333"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M9.16675 1.66667H7.50008C3.33341 1.66667 1.66675 3.33334 1.66675 7.5V12.5C1.66675 16.6667 3.33341 18.3333 7.50008 18.3333H12.5001C16.6667 18.3333 18.3334 16.6667 18.3334 12.5V10.8333"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+      <div class="conteiner2">
+        <section class="projetos">
+          <h2 class="titulo-p">Meus <span>projetos</span></h2>
+          <div class="p3flex">
+            <img src="./src/imagens/projetos1.png" alt="" />
+            <div class="p1">
+              <h2 class="numero-p1">01</h2>
+              <h2 class="tp1">Aplicativo Crypto Screener</h2>
+              <p class="txp1">
+                Sou Evren Shah Lorem Ipsum é simplesmente um texto fictício da
+                indústria de impressão e composição tipográfica. Lorem Ipsum tem
+                sido o texto fictício padrão da indústria desde 1500, quando um
+                impressor desconhecido pegou uma prova de tipos e embaralhou-a
+                em um livro de amostra.
+              </p>
+              <div class="img-more">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.8333 9.16666L17.6666 2.33333"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M18.3333 5.66667V1.66667H14.3333"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.16675 1.66667H7.50008C3.33341 1.66667 1.66675 3.33334 1.66675 7.5V12.5C1.66675 16.6667 3.33341 18.3333 7.50008 18.3333H12.5001C16.6667 18.3333 18.3334 16.6667 18.3334 12.5V10.8333"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="p2flex">
-          <img src="./src/imagens/projeto2.png" alt="" />
-          <div class="p1">
-            <h2 class="numero-p1">02</h2>
-            <h2 class="tp1">
-              Euphoria - Modelo de site de comércio eletrônico (aparelhos)
-            </h2>
-            <p class="txp1">
-              Sou Evren Shah Lorem Ipsum é simplesmente um texto fictício da
-              indústria de impressão e composição tipográfica. Lorem Ipsum tem
-              sido o texto fictício padrão da indústria desde 1500, quando um
-              impressor desconhecido pegou uma prova de tipos e embaralhou-a em
-              um livro de amostra. quando um impressor desconhecido pegou uma
-              prova de tipos e a embaralhou em um livro de amostras.
-            </p>
-            <div class="img-more">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.8333 9.16666L17.6666 2.33333"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M18.3333 5.66667V1.66667H14.3333"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M9.16675 1.66667H7.50008C3.33341 1.66667 1.66675 3.33334 1.66675 7.5V12.5C1.66675 16.6667 3.33341 18.3333 7.50008 18.3333H12.5001C16.6667 18.3333 18.3334 16.6667 18.3334 12.5V10.8333"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+          <div class="p2flex">
+            <img src="./src/imagens/projeto2.png" alt="" />
+            <div class="p1">
+              <h2 class="numero-p1">02</h2>
+              <h2 class="tp1">
+                Euphoria - Modelo de site de comércio eletrônico (aparelhos)
+              </h2>
+              <p class="txp1">
+                Sou Evren Shah Lorem Ipsum é simplesmente um texto fictício da
+                indústria de impressão e composição tipográfica. Lorem Ipsum tem
+                sido o texto fictício padrão da indústria desde 1500, quando um
+                impressor desconhecido pegou uma prova de tipos e embaralhou-a
+                em um livro de amostra. quando um impressor desconhecido pegou
+                uma prova de tipos e a embaralhou em um livro de amostras.
+              </p>
+              <div class="img-more">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.8333 9.16666L17.6666 2.33333"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M18.3333 5.66667V1.66667H14.3333"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.16675 1.66667H7.50008C3.33341 1.66667 1.66675 3.33334 1.66675 7.5V12.5C1.66675 16.6667 3.33341 18.3333 7.50008 18.3333H12.5001C16.6667 18.3333 18.3334 16.6667 18.3334 12.5V10.8333"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="p3flex">
-          <img src="./src/imagens/projeto3.png" alt="" />
-          <div class="p1">
-            <h2 class="numero-p1">03</h2>
-            <h2 class="tp1">Modelo de site de blog</h2>
-            <p class="txp1">
-              Sou Evren Shah Lorem Ipsum é simplesmente um texto fictício da
-              indústria de impressão e composição tipográfica. Lorem Ipsum tem
-              sido o texto fictício padrão da indústria desde 1500, quando um
-              impressor desconhecido pegou uma prova de tipos e embaralhou-a em
-              um livro de amostra.
-            </p>
-            <div class="img-more">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.8333 9.16666L17.6666 2.33333"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M18.3333 5.66667V1.66667H14.3333"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M9.16675 1.66667H7.50008C3.33341 1.66667 1.66675 3.33334 1.66675 7.5V12.5C1.66675 16.6667 3.33341 18.3333 7.50008 18.3333H12.5001C16.6667 18.3333 18.3334 16.6667 18.3334 12.5V10.8333"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+          <div class="p3flex">
+            <img src="./src/imagens/projeto3.png" alt="" />
+            <div class="p1">
+              <h2 class="numero-p1">03</h2>
+              <h2 class="tp1">Modelo de site de blog</h2>
+              <p class="txp1">
+                Sou Evren Shah Lorem Ipsum é simplesmente um texto fictício da
+                indústria de impressão e composição tipográfica. Lorem Ipsum tem
+                sido o texto fictício padrão da indústria desde 1500, quando um
+                impressor desconhecido pegou uma prova de tipos e embaralhou-a
+                em um livro de amostra.
+              </p>
+              <div class="img-more">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.8333 9.16666L17.6666 2.33333"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M18.3333 5.66667V1.66667H14.3333"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.16675 1.66667H7.50008C3.33341 1.66667 1.66675 3.33334 1.66675 7.5V12.5C1.66675 16.6667 3.33341 18.3333 7.50008 18.3333H12.5001C16.6667 18.3333 18.3334 16.6667 18.3334 12.5V10.8333"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
 
-      <div class="creditos">
-        <img src="./src/imagens/logo 1.png" alt="" />
-        <h4>Davi Vanderlinde Eing</h4>
-        <div class="creditos2">
-          <h4>@Davi Vanderlinde Eing</h4>
-          <li>Curso de Programação UNIBAVE</li>
-        </div>
+        
       </div>
-    </div>
+    </main>
+    <footer class="creditos">
+      <img src="./src/imagens/logo 1.png" alt="" />
+      <h4>Davi Vanderlinde Eing</h4>
+      <div class="creditos2">
+        <h4>@Davi Vanderlinde Eing</h4>
+        <li>Curso de Programação UNIBAVE</li>
+      </div>
+    </footer>
   </body>
 </html>
